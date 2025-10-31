@@ -2,12 +2,12 @@
 layout: default
 title: Template
 ---
-<div id="rot13-sortableTrash" class="sortable-code"></div> 
-<div id="rot13-sortable" class="sortable-code"></div> 
+<div id="sortableTrash" class="sortable-code"></div> 
+<div id="sortable" class="sortable-code"></div> 
 <div style="clear:both;"></div> 
 <p> 
-    <input id="rot13-feedbackLink" value="Get Feedback" type="button" /> 
-    <input id="rot13-newInstanceLink" value="Reset Problem" type="button" /> 
+    <input id="feedbackLink" value="Get Feedback" type="button" /> 
+    <input id="newInstanceLink" value="Reset Problem" type="button" /> 
 </p> 
 <script type="text/javascript"> 
 (function(){
@@ -23,7 +23,7 @@ title: Template
 \n" +
     "";
   var parsonsPuzzle = new ParsonsWidget({
-    "sortableId": "rot13-sortable",
+    "sortableId": "sortable",
     "max_wrong_lines": 10,
     "grader": ParsonsWidget._graders.LineBasedGrader,
     "exec_limit": 2500,
@@ -34,11 +34,11 @@ title: Template
   });
   parsonsPuzzle.init(initial);
   parsonsPuzzle.shuffleLines();
-  $("#rot13-newInstanceLink").click(function(event){ 
+  $("#newInstanceLink").click(function(event){ 
       event.preventDefault(); 
       parsonsPuzzle.shuffleLines(); 
   }); 
-  $("#rot13-feedbackLink").click(function(event){ 
+  $("#feedbackLink").click(function(event){ 
       event.preventDefault(); 
       parsonsPuzzle.getFeedback(); 
   }); 
