@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Parson's Problems"
-permalink: /parsons-problems/index
+permalink: /index
 ---
 
 # What is a Parson’s Problem? 
