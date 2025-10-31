@@ -9,6 +9,7 @@ title: ROT-13
 <p> 
     <input id="feedbackLink" value="Get Feedback" type="button" /> 
     <input id="newInstanceLink" value="Reset Problem" type="button" /> 
+    <fieldset class="feedbackFieldset"><legend>Feedback:</legend><div id="feedback"/></fieldset>
 </p> 
 <script type="text/javascript"> 
 (function(){
@@ -39,4 +40,3 @@ title: ROT-13
   }); 
 })(); 
 </script>
-<fieldset class="feedbackFieldset"><legend>Feedback:</legend><div id="feedback"/></fieldset>
