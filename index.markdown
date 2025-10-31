@@ -1,3 +1,5 @@
+title: Parson's Problems
+
 # What is a Parson’s Problem? 
 A Parson’s Problem is a task in which learners are given all of the blocks or lines of code needed to solve a problem. The lines of code, though, have been jumbled so that they are no longer in the correct order. Learners are asked to reorganise the code into the correct order to perform a specific task. 
 # Benefits
