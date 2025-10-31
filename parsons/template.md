@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Example 2
+title: Template
 ---
 <div id="sortableTrash" class="sortable-code"></div>
 <div id="sortable" class="sortable-code"></div>
