@@ -39,3 +39,4 @@ title: ROT-13
   }); 
 })(); 
 </script>
+<fieldset class="feedbackFieldset"><legend>Feedback:</legend><div id="feedback"/></fieldset>
