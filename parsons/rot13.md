@@ -2,6 +2,7 @@
 layout: default
 title: ROT-13
 ---
+<p>Re-order the lines to put the ASCII value of each character into a list.</p>
 <div id="sortableTrash" class="sortable-code"></div> 
 <div id="sortable" class="sortable-code"></div> 
 <div style="clear:both;"></div> 
@@ -11,17 +12,11 @@ title: ROT-13
 </p> 
 <script type="text/javascript"> 
 (function(){
-  var initial = "message = input(&quot;Enter the message to encrypt: &quot;)
-\n" +
-    "ascii_values = []
-\n" +
-    "for ch in message:
-\n" +
-    "    ascii_values.append(ord(ch))
-\n" +
-    "print(ascii_values)
-\n" +
-    "";
+  var initial = "message = input(&quot;Enter the message to encrypt: &quot;)" +
+    "ascii_values = []" +
+    "for ch in message:" +
+    "    ascii_values.append(ord(ch))" +
+    "print(ascii_values)";
   var parsonsPuzzle = new ParsonsWidget({
     "sortableId": "sortable",
     "max_wrong_lines": 10,
