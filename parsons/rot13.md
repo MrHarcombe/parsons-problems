@@ -12,10 +12,10 @@ title: ROT-13
 </p> 
 <script type="text/javascript"> 
 (function(){
-  var initial = "message = input(&quot;Enter the message to encrypt: &quot;)" +
-    "ascii_values = []" +
-    "for ch in message:" +
-    "    ascii_values.append(ord(ch))" +
+  var initial = "message = input(&quot;Enter the message to encrypt: &quot;)\n" +
+    "ascii_values = []\n" +
+    "for ch in message:\n" +
+    "    ascii_values.append(ord(ch))\n" +
     "print(ascii_values)";
   var parsonsPuzzle = new ParsonsWidget({
     "sortableId": "sortable",
