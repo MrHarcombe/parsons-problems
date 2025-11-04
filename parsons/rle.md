@@ -2,6 +2,8 @@
 layout: default
 title: RLE hint
 ---
+# Re-order the lines for a hint on how to count a block of repeating values in a sequence of space-separated inputs.
+
 <div id="sortableTrash" class="sortable-code"></div> 
 <div id="sortable" class="sortable-code"></div> 
 <div style="clear:both;"></div> 
