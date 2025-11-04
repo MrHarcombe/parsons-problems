@@ -2,6 +2,8 @@
 layout: default
 title: Playfair matrix generation
 ---
+# Re-order the lines for a hint on how to build the matrix of letters from a key phrase, then the rest of the alphabet.
+
 <div id="sortableTrash" class="sortable-code"></div> 
 <div id="sortable" class="sortable-code"></div> 
 <div style="clear:both;"></div> 
