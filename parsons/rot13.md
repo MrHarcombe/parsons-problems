@@ -2,7 +2,8 @@
 layout: default
 title: ROT-13
 ---
-<p>Re-order the lines to put the ASCII value of each character into a list.</p>
+# Re-order the lines to for a hint about how to turn a string input into a list of ASCII values.
+
 <div id="sortableTrash" class="sortable-code"></div> 
 <div id="sortable" class="sortable-code"></div> 
 <div style="clear:both;">
