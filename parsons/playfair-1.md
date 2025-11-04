@@ -2,6 +2,8 @@
 layout: default
 title: Playfair Duplicates
 ---
+# Re-order the lines for a hint on how to build a list of letters from a string, with duplicates removed.
+
 <div id="sortableTrash" class="sortable-code"></div> 
 <div id="sortable" class="sortable-code"></div> 
 <div style="clear:both;"></div> 
