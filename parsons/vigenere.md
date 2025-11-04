@@ -2,7 +2,8 @@
 layout: default
 title: Vigenère Cipher
 ---
-<h1>The solved version of this puzzle will help you work through the corresponding characters from the key and cipher string in combination.</h1>
+# Re-order the lines for a hint on how to get hold of the letter indexes for the message and corresponding key pairs.
+
 <div id="sortableTrash" class="sortable-code"></div> 
 <div id="sortable" class="sortable-code"></div> 
 <div style="clear:both;"></div> 
