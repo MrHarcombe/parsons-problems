@@ -2,6 +2,8 @@
 layout: default
 title: Vernam hint
 ---
+# Re-order the lines for a hint on how to display a list of numbers as 2 digit hex values.
+
 <div id="sortableTrash" class="sortable-code"></div> 
 <div id="sortable" class="sortable-code"></div> 
 <div style="clear:both;"></div> 
